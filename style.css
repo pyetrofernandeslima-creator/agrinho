@@ -1,0 +1,43 @@
+/* Configurações Gerais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #24292e; /* Cor escura estilo GitHub */
+    color: white;
+    padding: 20px 0;
+}
+
+main {
+    padding: 40px 20px;
+}
+
+/* Estilizando o Botão */
+button {
+    background-color: #2ea44f; /* Verde */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background-color: #22863a;
+}
+
+footer {
+    background-color: #ddd;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
